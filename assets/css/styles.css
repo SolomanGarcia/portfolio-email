@@ -142,6 +142,7 @@ textarea {
   z-index: -1;
   pointer-events: none;
   transform: scale(0);
+  transform-origin: right;
   transition: transform .25s .25s cubic-bezier(1, 0, 0, 1);
 }
 
@@ -181,6 +182,22 @@ textarea {
 .active.menu > .list {
   opacity: 1;
   transition: opacity .1s .5s;
+}
+
+.active .open-icon {
+  display: none;
+}
+
+.active .close-icon {
+  display: block;
+}
+
+.dark-theme .theme-off {
+  display: none;
+}
+
+.dark-theme .theme-on {
+  display: block;
 }
 /* !HERO STYLES*/
 
