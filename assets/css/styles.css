@@ -23,6 +23,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -230,6 +231,7 @@ textarea {
 .dark-theme .theme-on {
   display: block;
 }
+
 /* HERO STYLES*/
 .title {
   font-family: var(--title-font-family);
