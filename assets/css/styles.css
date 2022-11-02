@@ -233,7 +233,7 @@ textarea {
   display: block;
 }
 
-/* HERO STYLES*/
+/* HERO STYLES */
 .title {
   font-family: var(--title-font-family);
   font-weight: 300;
@@ -483,6 +483,7 @@ textarea {
 
 .large-button-container {
   display: flex;
+  margin-top: 8rem;
 }
 
 .large-button {
@@ -561,7 +562,8 @@ textarea {
   padding: .5rem;
 }
 
-.input input:focus + .input-label {
+.input input:focus + .input-label,
+.input input:valid + .input-label {
   transform: translateY(-2.5rem);
 }
 
