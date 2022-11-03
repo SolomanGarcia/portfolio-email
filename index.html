@@ -231,26 +231,27 @@
       </div>
 
       <div class="form-container">
-        <form action="mailto:solomangarcia.codes@gmail.com" class="contact-form">
+        <form action="https://formsubmit.co/solomangarcia.codes@gmail.com" class="contact-form" method="POST">
           <div class="input-group">
 
             <div class="input">
-              <input type="text" id="name" required>
+              <input type="text" name="name" id="name" required>
               <label for="name" class="input-label">Name <span class="required-field">*</span></label>
             </div>
 
             <div class="input">
-              <input type="text" id="email" required>
+              <input type="text" name="email" id="email" required>
               <label for="email" class="input-label">Email <span class="required-field">*</span></label>
             </div>
 
           </div>
 
           <div class="input">
-            <input type="text" id="message" required>
+            <input type="text" name="message" id="message" required>
             <label for="message" class="input-label">Message <span class="required-field">*</span></label>
           </div>
-
+          <input type="hidden" name="_subject" value="New submission!">
+          <input type="hidden" name="_next" value="https://solomangarcia.com/thanks.html">
           <button type="submit" class="button form-button button-fill">Send message</button>
         </form>
       </div>

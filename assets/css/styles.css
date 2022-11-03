@@ -234,6 +234,7 @@ textarea {
 }
 
 /* HERO STYLES */
+
 .title {
   font-family: var(--title-font-family);
   font-weight: 300;
@@ -483,7 +484,7 @@ textarea {
 
 .large-button-container {
   display: flex;
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 
 .large-button {
