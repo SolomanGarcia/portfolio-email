@@ -603,6 +603,22 @@ textarea {
   color: var(--dark-color);
 }
 
+/* THANK YOU PAGE */
+.social-stack-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.social-stack-item i {
+  font-size: 5rem;
+  cursor: pointer;
+}
+
+.social-stack-item .list-link {
+  color: var(--dark-color);
+}
 /* SCROLLBAR */
 ::-webkit-scrollbar {
   width: 1rem;
